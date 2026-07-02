@@ -5,7 +5,7 @@ This file generates Brownian motion paths
 
 import numpy as np
 
-def generate(T=1.0, n=1000, seed=None):
+def generate_brownian(T=1.0, n=1000, seed=None):
     if seed is not None:
         np.random.seed(seed)
 
